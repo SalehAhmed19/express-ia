@@ -1,0 +1,8 @@
+# node modules files
+node_modules
+
+# environment files
+.env
+
+# bin
+bin
