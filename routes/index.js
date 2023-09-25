@@ -3,7 +3,9 @@ var router = express.Router();
 
 /* GET home page. */
 router.get("/", function (req, res, next) {
-  res.render("index", { title: "ExpressJs" });
+  const count = 2 * 2;
+
+  res.render("index", { title: "ExpressJs", count: count });
 });
 
 module.exports = router;
